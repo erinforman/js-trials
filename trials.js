@@ -10,8 +10,16 @@ const addresses = ["123 Main Street", "683 Sutter Street", "1600 Pennsylvania Av
 
 const phoneNumbers = new Map();
 
-// Add some phone numbers to our map
 
+function getAccountInfo(accountHolder, accountNumber, businessName) {
+  console.log(accountHolder, accountNumber, businessName);
+}
+
+// Add some phone numbers to our map
+phoneNumbers.home = '510-867-5309';
+phoneNumbers['mobile'] = '415-555-1212';
+
+phoneNumbers['second mobile'] = '222';
 
 
 // ///////////////////////////////////////////////////////
